@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.main {
+  height: 100vh;
+  background: linear-gradient(to right, #210129, #b286bb);
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+}
+.header {
+  position: relative;
+  color: white;
+  height: 80px;
+  border-bottom: solid 3px black;
+}
+.header h4 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 450px;
+}
+.secondrow {
+  position: relative;
+  height: 100px;
+  border-bottom: solid 3px black;
+  margin-top: 10px;
+}
+.secondrow h4 {
+  font-size: 20px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.input {
+  padding-left: 30px;
+}
+.inputdetails {
+  height: 30px;
+  width: 200px;
+  padding-left: 40px;
+}
+.thirdrow {
+  position: relative;
+  height: 400px;
+  display: flex;
+  border-bottom: solid 3px black;
+}
+.leftcolumn {
+  margin-left: 10px;
+  position: relative;
+  width: 800px;
+  border-right: solid 3px black;
+}
+.leftcolumn h3 {
+  padding: 10px 0 10px 200px;
+}
+.leftcolumn p {
+  font-size: larger;
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+  position: relative;
+  margin-left: 50px;
+}
+.select {
+  position: relative;
+  margin-left: 40px;
+}
+.flex button {
+  font-size: larger;
+  margin-left: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.display {
+  display: flex;
+}
+.leftmenucolumn {
+  margin-top: 10px;
+  background: rgb(255, 255, 255);
+  width: 600px;
+  height: 300px;
+}
+.leftmenucolumn p {
+  padding: 10px 0 0 10px;
+}
+.rightmenucolumn {
+  margin-top: 10px;
+  position: relative;
+  width: 170px;
+  height: 300px;
+  background: rgb(255, 255, 255);
+}
+.rightmenucolumn p {
+  padding-top: 10px;
+}
+
+.rightcolumn {
+  display: block;
+  position: relative;
+  width: 200px;
+}
+.frow {
+  margin: 10px 0 0 300px;
+}
+.frow h3 {
+  font-size: 30px;
+}
+.srow {
+  margin: 30px 0 10px 50px;
+  display: flex;
+}
+.srow p {
+  padding-right: 400px;
+  font-weight: 700;
+}
+.trow {
+  margin-left: 50px;
+  display: flex;
+}
+.trow p {
+  font-weight: 700;
+}
+.trow input {
+  margin-left: 20px;
+  height: 20px;
+  width: 100px;
+}
+.receipt {
+  background-color: white;
+  width: 720px;
+  height: 200px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.yourorder p {
+  display: inline-flex;
+  margin-left: 200px;
+}
+.oderview {
+  display: flex;
+  position: absolute;
+  margin: 20px 0 0 200px;
+}
+.oderview p {
+  padding-right: 100px;
+  font-weight: 700px;
+}
+.bottomrow {
+  height: 200px;
+  position: relative;
+  display: block;
+}
+.leftbottom {
+  margin: 10px 10px 30px 50px;
+  display: flex;
+}
+.leftbottom button {
+  margin-right: 60px;
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+}
+.rightbottom {
+  display: flex;
+  position: absolute;
+  margin: -75px -10px 0 1200px;
+  font-weight: 700px;
+}
+.rightbottom button {
+  margin-right: 50px;
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  font-weight: 700px;
+}
+.cashing {
+  display: flex;
+}
+.cashing p {
+  font-weight: 1600px;
+  padding: 10px 60px 0 40px;
+}
+.totalprice {
+  position: relative;
+  background: white;
+  height: 40px;
+  width: 200px;
+}
+.balance {
+  position: relative;
+  background: white;
+  height: 40px;
+  width: 200px;
+  font-weight: 800px;
+}
+.inputamount {
+  position: relative;
+  height: 40px;
+  width: 200px;
+}
+/*{
+  "key": "cmd+i",
+  "command": "workbench.action.files.newUntitledFile",
+  "args": { "viewType": "github-issues" }
+}*/

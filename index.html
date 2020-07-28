@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h4>Jolybee Management System</h4>
+        </div>
+        <div class="secondrow">
+            <h4>Customers Details</h4>
+            <div class="input"><input type="text" , placeholder="Name" class="inputdetails" name="name">
+                <input type="text" , placeholder="Contact" class="inputdetails" name="cantact"></div>
+
+        </div>
+        <div class="thirdrow">
+            <div class="leftcolumn">
+                <h3>Menu</h3>
+                <div class="flex">
+                    <p>Select Type</p>
+                    <select class="select" name="Menu">
+                        <option value="volvo"></option>
+                        <option value="volvo">Drinks</option>
+                        <option value="saab">Wines And Spirits</option>
+                        <option value="fiat">Main Course</option>
+                        <option value="audi">Beverages</option>
+                    </select>
+                    <button>Show</button>
+                    <button>Show All</button>
+
+
+                </div>
+
+                <div class='display'>
+                    <div class="leftmenucolumn">
+                        <p>Name</p>
+                    </div>
+                    <div class="rightmenucolumn">
+                        <p>price</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="frow">
+                    <h3>Item</h3>
+                </div>
+                <div class="srow">
+                    <p>Name</p>
+                    <p>Rate</p>
+                </div>
+                <div class="trow">
+                    <p>Quantity</p>
+                    <input type="text" name="quantity">
+                </div>
+                <div class="oderview">
+                    <p>Name</p>
+                    <p>Rate</p>
+                    <p>Quantity</p>
+                    <p>Price</p>
+                </div>
+                <div class="receipt"></div>
+            </div>
+        </div>
+        <div class="bottomrow">
+            <div class="leftbottom">
+                <button>Add Item</button>
+                <button>Remove Item</button>
+                <button>Update Quantity</button>
+            </div>
+            <div class="rightbottom">
+                <button>Clear all</button>
+                <button>Bill</button>
+            </div>
+
+            <div class="cashing">
+                <p>Total Price</p>
+                <div class="totalprice"></div>
+                <p>Amount Payed</p>
+                <input type="text" class="inputamount" name="amountpay">
+                <p>balance</p>
+                <div class="balance"></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
